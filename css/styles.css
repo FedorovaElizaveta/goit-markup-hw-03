@@ -62,14 +62,13 @@ ol {
 
 /* Header */
 
-.header-container {
+.main-header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .main-navigation {
-  width: 456px;
   display: flex;
   justify-content: space-between;
 }
@@ -102,8 +101,8 @@ ol {
 }
 
 .navigation-menu-link {
-  color: #2e2f42;
   display: block;
+  color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -150,7 +149,10 @@ ol {
 
 .effective-solutions-section {
   background-color: #2e2f42;
-  height: 600px;
+}
+
+.effective-solutions-section .container {
+  padding-bottom: 188px;
 }
 
 .effective-solutions-heading {
@@ -180,6 +182,7 @@ ol {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .effective-solutions-button:hover,
@@ -188,6 +191,11 @@ ol {
 }
 
 /* The Second Section */
+
+.advantages-section .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .advantages-list-heading {
   color: #2e2f42;
@@ -200,8 +208,6 @@ ol {
 .advantages-list {
   display: flex;
   column-gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .advantages-list-item {
