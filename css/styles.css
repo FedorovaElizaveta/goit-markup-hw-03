@@ -150,6 +150,7 @@ ol {
 
 .effective-solutions-section {
   background-color: #2e2f42;
+  height: 600px;
 }
 
 .effective-solutions-heading {
@@ -159,6 +160,11 @@ ol {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
+  width: 496px;
+  padding-top: 188px;
+  margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .effective-solutions-button {
@@ -168,6 +174,12 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
+  padding: 16px 32px;
+  border: 0;
+  border-radius: 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .effective-solutions-button:hover,
@@ -183,6 +195,21 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+
+.advantages-list {
+  display: flex;
+  column-gap: 24px;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.advantages-list-item {
+  width: 264px;
+}
+
+.advantages-list-heading {
+  margin-bottom: 8px;
 }
 
 .advantages-list-paragraph {
@@ -207,10 +234,24 @@ ol {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-top: 120px;
+  margin-bottom: 72px;
+}
+
+.our-team-list {
+  padding-bottom: 120px;
+  display: flex;
+  column-gap: 24px;
 }
 
 .our-team-list-item {
   background-color: #ffffff;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.our-team-list-imagine {
+  margin-bottom: 32px;
 }
 
 .our-team-list-heading {
@@ -220,6 +261,7 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .our-team-list-paragraph {
@@ -229,6 +271,7 @@ ol {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 32px;
 }
 
 /* The Fourth Section */
@@ -241,6 +284,24 @@ ol {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+
+.our-portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 120px;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.our-portfolio-list-item {
+  border: 1px solid #e7e9fc;
+}
+
+.our-portfolio-list-imagine {
+  margin-bottom: 32px;
 }
 
 .our-portfolio-list-heading {
@@ -249,6 +310,9 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 8px;
 }
 
 .our-portfolio-list-paragraph {
@@ -257,6 +321,9 @@ ol {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 32px;
 }
 
 /* Footer */
@@ -275,6 +342,13 @@ ol {
   text-transform: uppercase;
 }
 
+.logo-footer {
+  display: block;
+  padding-top: 100px;
+  margin-left: 156px;
+  margin-bottom: 16px;
+}
+
 .footer-logo-second-word {
   color: #f4f4fd;
 }
@@ -285,4 +359,8 @@ ol {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  width: 264px;
+  display: block;
+  margin-left: 156px;
+  padding-bottom: 100px;
 }
