@@ -62,21 +62,26 @@ ol {
 
 /* Header */
 
+.main-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .main-header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 1158px;
 }
 
 .main-navigation {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .navigation-menu {
   display: flex;
-  column-gap: 40px;
-  margin-left: 76px;
+  gap: 40px;
 }
 
 .navigation-menu-link,
@@ -94,6 +99,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-second-word {
@@ -125,7 +131,7 @@ ol {
 
 .address-menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .address-menu-link {
@@ -149,10 +155,8 @@ ol {
 
 .effective-solutions-section {
   background-color: #2e2f42;
-}
-
-.effective-solutions-section .container {
   padding-bottom: 188px;
+  padding-top: 188px;
 }
 
 .effective-solutions-heading {
@@ -162,8 +166,7 @@ ol {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  width: 496px;
-  padding-top: 188px;
+  max-width: 496px;
   margin-bottom: 48px;
   margin-left: auto;
   margin-right: auto;
@@ -182,6 +185,7 @@ ol {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  min-width: 169px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
@@ -192,7 +196,7 @@ ol {
 
 /* The Second Section */
 
-.advantages-section .container {
+.advantages-section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -207,11 +211,11 @@ ol {
 
 .advantages-list {
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .advantages-list-item {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 
 .advantages-list-heading {
@@ -230,6 +234,8 @@ ol {
 
 .our-team-section {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .our-team-heading {
@@ -240,24 +246,24 @@ ol {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
 .our-team-list {
-  padding-bottom: 120px;
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .our-team-list-item {
   background-color: #ffffff;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
+  width: calc((100% - 72px) / 4);
 }
 
-.our-team-list-imagine {
-  margin-bottom: 32px;
+.name-and-position {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .our-team-list-heading {
@@ -277,10 +283,14 @@ ol {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
 }
 
 /* The Fourth Section */
+
+.our-portfolio-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 .our-portfolio-heading {
   color: #2e2f42;
@@ -290,24 +300,24 @@ ol {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .our-portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 120px;
   column-gap: 24px;
   row-gap: 48px;
 }
 
 .our-portfolio-list-item {
-  border: 1px solid #e7e9fc;
+  width: calc((100% - 48px) / 3);
 }
 
-.our-portfolio-list-imagine {
-  margin-bottom: 32px;
+.card-content {
+  padding: 32px 16px;
+  border-top: none;
+  border: 1px solid #e7e9fc;
 }
 
 .our-portfolio-list-heading {
@@ -316,8 +326,6 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-left: 16px;
-  padding-right: 16px;
   margin-bottom: 8px;
 }
 
@@ -327,15 +335,14 @@ ol {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-left: 16px;
-  padding-right: 16px;
-  margin-bottom: 32px;
 }
 
 /* Footer */
 
 .main-footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .logo-footer {
@@ -346,12 +353,7 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.logo-footer {
-  display: block;
-  padding-top: 100px;
-  margin-left: 156px;
+  display: inline-block;
   margin-bottom: 16px;
 }
 
@@ -365,8 +367,5 @@ ol {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  width: 264px;
-  display: block;
-  margin-left: 156px;
-  padding-bottom: 100px;
+  max-width: 264px;
 }
